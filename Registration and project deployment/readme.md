@@ -160,7 +160,42 @@ Select Deploy.
 
 On the AWS DeepLens console, you can track the progress of the deployment. It can take a few minutes to transfer a large model file to the device. Once the project is downloaded, you will see a success message displayed and the banner color will change from blue to green.
 
+## View Output
+
+<details> <summary>If you are connected over monitor setup </summary>
+  
+ **Option 1: View over mplayer**
+ 
 To view the output, open a terminal (on the desktop, choose the top left button and search for terminal) and enter the following command:
 
 `mplayer -demuxer lavf -lavfdopts format=mjpeg:probesize=32 /tmp/results.mjpeg`
+ 
+**Option 2: View over browser**
 
+Step 1- From the left navigation, Choose Devices. Choose your device. Choose View Output
+
+![view output](https://user-images.githubusercontent.com/11222214/41580046-41fab7d8-734e-11e8-8e1f-74e772f4f520.JPG)
+
+Step 2- Choose Firefox browser for Windows and Mac. Follow the instructions
+
+![step 1 view output](https://user-images.githubusercontent.com/11222214/41580333-67a45326-734f-11e8-9219-503499a118dc.JPG)
+
+Step 3- Open a browser tab and navigate to https://0.0.0.0:4000
+
+View output and enjoy!
+</details>
+
+<details> <summary>If you are connected over headless mode </summary>
+ 
+ Step 1- From the left navigation, Choose Devices. Choose your device. Choose View Output
+
+![view output](https://user-images.githubusercontent.com/11222214/41580046-41fab7d8-734e-11e8-8e1f-74e772f4f520.JPG)
+
+Step 2- Choose your browser. Follow the instructions
+
+![step 1 view output](https://user-images.githubusercontent.com/11222214/41580333-67a45326-734f-11e8-9219-503499a118dc.JPG)
+
+Step 3- Click on **View stream**
+
+View the output and enjoy!
+</details>
