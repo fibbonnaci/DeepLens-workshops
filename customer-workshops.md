@@ -7,9 +7,9 @@ In this project you will learn to build a deep learning model to identify and an
 ## In this workshop you will learn the following:
 
 1. How to build and train a face detection model in SageMaker
-2. Modify the DeepLens inference lambda function to upload cropped faces to S3
-3. Deploy the inference lambda function and face detection model to DeepLens
-4. Create a lambda function to trigger Rekognition to identify emotions
+2. Modify the DeepLens inference Lambda function to upload cropped faces to S3
+3. Deploy the inference Lambda function and face detection model to DeepLens
+4. Create a Lambda function to trigger Rekognition to identify emotions
 5. Create a DynamoDB table to store the recognized emotions
 6. Analyze using CloudWatch
 
@@ -164,7 +164,7 @@ We need to create an S3 bucket that we can upload faces to.
 - Name your bucket: `face-detection-`_your-name_
 - Click on Create 
 
-#### Create Inference lambda function:
+#### Create Inference Lambda function:
 
 - Go to [AWS Management console](https://console.aws.amazon.com/console/home?region=us-east-1) and search for Lambda
 - Click **Create function**
