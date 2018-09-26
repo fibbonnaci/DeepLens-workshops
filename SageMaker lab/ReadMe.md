@@ -10,6 +10,8 @@ This will download the repo as a zip file. Extract the zip file.
 
 ### Step 1- Create notebook instance
 
+NOTE: You need to build your SageMaker resources in the **US East Virginia** region in order to access the necessary S3 buckets.
+
 Go to SageMaker console: https://console.aws.amazon.com/sagemaker
 
 Click on Create Notebook instance
